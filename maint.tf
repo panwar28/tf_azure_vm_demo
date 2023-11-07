@@ -1,3 +1,4 @@
+# Terraform Azure VM demo
 provider "azurerm" {
   features {}
 }
