@@ -49,11 +49,8 @@ provider "azurerm" {
 #   location                        = azurerm_resource_group.this.location
 #   size                            = "Standard_F2"
 #   admin_username                  = "localadmin"
-
-#   admin_ssh_key {
-#     username = "localadmin"
-#     public_key = file("~/.ssh/id_rsa.pub")
-#   }
+#   admin_password                  = "KP8CRex@N?$dsS#3zv5TgWZUM6faLmG!"
+#   disable_password_authentication = false
 
 #   source_image_reference {
 #     publisher = "Canonical"
